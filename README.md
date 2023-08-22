@@ -1,1 +1,1 @@
-My professional blog``
+My professional blog
