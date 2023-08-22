@@ -31,6 +31,3 @@ By the end of my tenure as a PLA, I stood at the intersection of personal growth
 
 # A Continuation of Empowerment
 My experience as a PLA during the Spring 2023 semester has left an indelible mark on my journey. The skills I cultivated, the challenges I navigated, and the relationships I formed have not only shaped me as an educator but also inspired me to continue fostering positive learning experiences. As I move forward, I am eager to carry forward the lessons learned and the passion ignited, contributing to a brighter and more empowered educational landscape.
-
-# Conclusion
-My time as a Peer Learning Assistant was more than a role; it was a transformative experience that allowed me to cultivate teaching prowess, enhance communication skills, and leave a positive impact on the educational journeys of fellow students. Through the lens of my journey, I have come to realize that the pursuit of knowledge is made richer when shared, and I am grateful for the opportunity to have been a part of that journey for others.

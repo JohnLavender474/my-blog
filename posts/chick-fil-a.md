@@ -31,6 +31,3 @@ In 2020, it was time to bid farewell to Chick-fil-A as I set my sights on a new 
 
 # Lifelong Lessons and "My Pleasure"
 My time at Chick-fil-A proved to be much more than just a job. It was a transformative experience that left an enduring legacy on my outlook and work ethic. The lessons in commitment, adaptability, and teamwork continue to guide my professional and personal endeavors. And, of course, I carry forward the cherished tradition of responding with a sincere "My pleasure" whenever gratitude is expressed—a token of the core values that have become a part of who I am.
-
-# Conclusion
-My journey at Chick-fil-A was a remarkable chapter in my life, filled with lessons, challenges, and personal growth. From the bustling early days to the transformative store remodeling, and eventually to my departure to pursue higher education, the experiences and values imbibed during my time there continue to influence my journey. The dedicated pursuit of excellence, the importance of a unified team, and the commitment to hard work have become guiding principles that shape my approach to every endeavor.

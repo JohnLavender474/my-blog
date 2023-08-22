@@ -1,17 +1,7 @@
-import fs from "fs";
 import Markdown from "markdown-to-jsx";
-import matter from "gray-matter";
 import getPostMetadata from "../../../components/getPostMetadata";
-import Link from "next/link";
 import moment from "moment";
-
-const getPostContent = (slug: string) => {
-  const folder = "posts/";
-  const file = `${folder}${slug}.md`;
-  const content = fs.readFileSync(file, "utf8");
-  const matterResult = matter(content);
-  return matterResult;
-};
+import { getPostContent } from "../../../components/getPostContent";
 
 export const generateStaticParams = async () => {
   const posts = getPostMetadata();
