@@ -1,4 +1,5 @@
 ---
+section: "Projects"
 title: "Separation of Concerns: Creating Reusable Game Engine"
 date: 2023-08-02
 meta: 
