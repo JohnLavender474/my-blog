@@ -1,14 +1,16 @@
 ---
 title: "Development Set in Motion: My Internship at Ware2Go"
-date: 2023-08-01
+date: 2023-08-02
 meta: 
   title: "Ware2Go Internship"
   description: "Blog Post - Internship at Ware2Go"
 ---
 
+![images/W2G](/images/W2G.png)
+
 # Introduction
-Allow me to take you through my Summer 2023 development experience at Ware2Go. And I should qualify that "development" here
-means both "code-development" and "self-development"!) This was my first swoop into the professional world,  progressing from
+Allow me to take you through my Summer 2023 development experience at Ware2Go. I should qualify that development here
+means both code-development and self-development! This was my first swoop into the professional world,  progressing from
 mock projects in the classroom and personal projects over to industry-grade services written by a swathe of talented developers.
 In this blog post, I'll share my journey of defeating initial anxieties, seizing challenges, grasping new tech skills, and
 ultimately developing myself as a collaborative, results-driven developer.

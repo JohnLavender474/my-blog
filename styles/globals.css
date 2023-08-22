@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #e5e5e5;
+}

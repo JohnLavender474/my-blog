@@ -20,7 +20,43 @@ export default function RootLayout({
         <Link href="/">
           <h1 className="text-2xl text-white font-bold mt-4">John Lavender's Blog</h1>
         </Link>
-        <p className="text-slate-300">🤟 Welcome to my tech blog. 💻</p>
+        <p className="text-slate-300">Welcome to my professional blog!</p>      
+        <div className="grid grid-cols-3 gap-3">
+          <div style={{margin: "auto", width: "50px" }}>
+            <a href="https://linkedin.com/in/john-michael-lavender" target="_blank" rel="noreferrer">
+              <Image
+                src="/images/linkedin.png"
+                width={40}
+                height={40}
+                className="mx-auto"
+                alt={"linkedin"}          
+              />
+            </a>
+          </div>
+          <div style={{margin: "auto", width: "50px" }}>
+            <a href="https://github.com/JohnLavender474" target="_blank" rel="noreferrer">
+              <Image
+                src="/images/github-mark-white.png"
+                width={40}
+                height={40}
+                className="mx-auto"
+                alt={"github"}          
+              />
+            </a> 
+          </div>  
+          <div style={{margin: "auto", width: "50px" }}>
+            <a href="https://drive.google.com/file/d/17SJo3vKqE3L5D_-qrgS69uZ3uO3Yyglc/view?usp=sharing" 
+                target="_blank" rel="noreferrer">
+              <Image
+                src="/images/resume.png"
+                width={40}
+                height={40}
+                className="mx-auto"
+                alt={"resume"}          
+              />
+            </a> 
+          </div>
+        </div>
       </div>
     </header>
   );
