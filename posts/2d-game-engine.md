@@ -1,20 +1,21 @@
 ---
 section: "Projects"
-title: "Separation of Concerns: Creating Reusable Game Engine"
+title: "Separation of Concerns: Creating a Reusable Game Engine"
 date: 2023-08-02
 meta: 
   title: "Creating Game Engine"
   description: "Blog Post - Creating Game Engine"
 ---
 
+# THIS POST IS A WORK IN PROGRESS AND IS NOT FINISHED YET
 # Introduction
-Welcome to this blog post where I'll be sharing my journey of refactoring and improving my game engine, "Megaman Maverick." Over the past year, I've embarked on a mission to separate the game engine from the game itself, transitioning from Java to Kotlin. In this post, I'll delve into the reasons behind this decision, the process of porting code to Kotlin, and the benefits of this endeavor.
+Welcome to this blog post where I'll be sharing my journey of refactoring and improving my game engine, "2dGameEngine". Over the past year, I've embarked on a mission to separate the game engine from the game itself, transitioning from Java to Kotlin. In this post, I'll delve into the reasons behind this decision, the process of porting code to Kotlin, and the benefits of this endeavor.
 
 # Background and Initial Design
-My project, Megaman Maverick, began as an ambitious endeavor to create both a game and a game engine from scratch. Built upon the Entity-Component-System (ECS) architecture, this project combined entities, components, and systems to create a cohesive whole. The initial design aimed to streamline development and create a functional game engine tailored to the project's needs.
+My project, "Megaman Maverick", began as an ambitious endeavor to create both a game and a game engine from scratch. Built upon the Entity-Component-System (ECS) architecture, this project combined entities, components, and systems to create a cohesive whole. The initial design aimed to streamline development and create a functional game engine tailored to the project's needs.
 
 # Reasons for Refactoring
-After almost a year away from the project, I revisited it with fresh eyes and a new perspective. It became evident that the game engine and the game itself were too tightly intertwined, hindering code maintainability and reusability. This realization led me to consider the benefits of transitioning from Java to Kotlin—a language I had grown more confident in, thanks to my experiences at Ware2Go.
+After almost a year away from the project, I revisited it with fresh eyes and a new perspective. It became evident that the game engine and the game itself were too tightly intertwined, hindering code maintainability and reusability. This realization led me to consider the benefits of transitioning from Java to Kotlin — a language I had grown more confident in, thanks to my experiences at Ware2Go.
 
 # Transitioning to Kotlin
 The transition from Java to Kotlin was not without its challenges, but Kotlin's concise syntax and modern features proved invaluable. The process involved rewriting existing code in Kotlin while ensuring seamless integration with the rest of the codebase. Null safety, extension functions, and other Kotlin features made the migration smoother and improved the overall readability of the code.

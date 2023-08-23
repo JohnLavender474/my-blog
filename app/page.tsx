@@ -1,3 +1,4 @@
+import AboutMe from "../components/AboutMe";
 import CollapsibleSection from "../components/CollapsibleSection";
 import { getMappedPostMetadata }from "../components/getPostMetadata";
 import { PostMetadata } from "../components/PostMetadata";
@@ -30,7 +31,8 @@ const HomePage = () => {
       {
         sections.map((section) => getPreviewsFor(section, mappedPostMetadata))
       }
-    </div>
+      <AboutMe/>
+    </div>    
   );
 };
 
