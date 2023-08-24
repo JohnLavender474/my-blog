@@ -18,9 +18,9 @@ export default function RootLayout({
           alt={"logo"}
         />
         <Link href="/">
-          <h1 className="text-2xl text-white font-bold mt-4">John Lavender's Blog</h1>
+          <h1 className="text-2xl text-white font-bold mt-4">John Lavender's Website</h1>
         </Link>
-        <p className="text-slate-300">Welcome to my professional blog!</p>      
+        <p className="text-slate-300">Welcome to my professional website!</p>      
         <div className="grid grid-cols-3 gap-3">
           <div style={{margin: "auto", width: "50px" }}>
             <a href="https://linkedin.com/in/john-michael-lavender" target="_blank" rel="noreferrer">
