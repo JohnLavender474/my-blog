@@ -46,9 +46,3 @@ Looking ahead, the possibilities are exciting. With the refactored game engine i
 
 # Lessons Learned
 This journey has taught me the value of revisiting and improving existing projects. Embracing new technologies and design principles has a profound impact on code quality and maintainability. The transition from Java to Kotlin underscores the importance of adaptability and continuous learning in the dynamic field of software development.
-
-# Conclusion
-In conclusion, the process of refactoring my game engine from Java to Kotlin has been both challenging and immensely rewarding. The separation of concerns principle and the adoption of Kotlin have set the stage for a more modular, maintainable, and extensible game engine. As I move forward with creating new projects and refining the engine, I'm excited to see the potential unfold.
-
-# Closing Thoughts
-Thank you for joining me on this journey of transformation and growth. I'm eager to hear your thoughts, questions, and experiences related to game engine development, Kotlin, and the path of refactoring. Feel free to reach out to me via Twitter or Email.
