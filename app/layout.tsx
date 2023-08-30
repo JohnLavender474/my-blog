@@ -23,7 +23,7 @@ export default function RootLayout({
         <p className="text-slate-300">Welcome to my professional website!</p>      
         <div className="grid grid-cols-3 gap-3">
           <div style={{margin: "auto", width: "50px" }}>
-            <a href="https://linkedin.com/in/john-michael-lavender" target="_blank" rel="noreferrer">
+            <a href="https://linkedin.com/in/john-lavender" target="_blank" rel="noreferrer">
               <Image
                 src="/images/linkedin.png"
                 width={40}
