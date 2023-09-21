@@ -1,5 +1,5 @@
 ---
-section: "Projects"
+section: "Experience"
 title: "Opening Up to My First Open Source Contribution"
 date: 2023-09-20
 meta: 
