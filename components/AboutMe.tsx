@@ -22,7 +22,7 @@ const AboutMe = () => {
           world of Software Development together!
         </p>
       </div>
-      <style jsx>{`
+      <style>{`
         .about-me-container {
           display: flex;
           align-items: flex-start;
