@@ -7,7 +7,7 @@ meta:
   description: "Blog Post - First Day at McKenney's"
 ---
 
-![images/W2G](/images/W2G.png)
+![images/W2G](/images/mckenneys.jpg)
 
 Embarking on my first day as an Automations and Control Solutions Engineer Co-Op at McKenney's, I, along with my fellow co-ops, had the valuable opportunity to tour the manufacturing and construction facilities. This experience provided a firsthand look into the intricate synergy between workers and automated machinery, unveiling the remarkable efficiency with which processes like welding, machining, etc. are executed. Guiding us through this exploration was one of the project directors, who offered insights into the role of automations and controls engineers. During a moment in the tour, I took the chance to inquire about my specific role and how it contributed to the demonstrated processes.
 
