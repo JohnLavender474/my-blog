@@ -46,7 +46,7 @@ export default function RootLayout({
             </a> 
           </div>  
           <div style={{margin: "auto", width: "50px" }}>
-            <a href="https://drive.google.com/file/d/1hNY013saiajLsiDwytBnNnnwsadRQ-i5/view?usp=sharing" 
+            <a href="https://drive.google.com/file/d/1TUGLQUNDVIJsBNF4RpEzpbsgAXNzyNZu/view?usp=sharing" 
                 target="_blank" rel="noreferrer">
               <Image
                 src="/images/resume.png"
