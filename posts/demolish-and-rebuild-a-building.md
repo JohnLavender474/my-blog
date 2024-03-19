@@ -1,7 +1,7 @@
 ---
 section: "Experience"
 title: "Demolish and Rebuild: BuildingConnect App at McKenney's"
-date: 2023-08-23
+date: 2024-03-19
 meta:
   title: "Demolish and Rebuild: BuildingConnect App at McKenney's"
   description: "Blog Post - Demolish and Rebuild: BuildingConnect App at McKenney's"
