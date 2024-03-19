@@ -12,14 +12,10 @@ const AboutMe = () => {
       </div>
       <div className="text-container">
         <p className="about-me-paragraph">
-          Hi there! I'm John Lavender, a passionate Software Developer with a
-          love for technology and good software development practices. I've been 
-          on an exciting journey of learning and growth, and I'm eager to share 
-          my experiences and insights with you. When I'm not coding or working 
-          on projects, you can find me watching movies, listening to music, 
-          cooking, watching movies, playing video games, motorcycling, 
-          practicing piano, and so much more. Let's connect and explore the 
-          world of Software Development together!
+          Hi there! I'm John Lavender, a passionate Software Developer with a love for technology and good
+          software development. I've been on an exciting journey of learning and growth, and I'm eager to
+          share my experiences and insights with you. You can find me working on creating my own video game,
+          cooking, motorcycling, practicing piano, or enjoying nature. Let's connect and discuss!
         </p>
       </div>
       <style>{`
