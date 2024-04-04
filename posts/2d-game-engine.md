@@ -7,8 +7,6 @@ meta:
   description: "Blog Post - Creating Game Engine"
 ---
 
-### THIS POST IS A WORK IN PROGRESS AND IS NOT FINISHED YET
-
 ## Introduction
 
 Welcome to this blog post where I'll be sharing my journey of refactoring and improving my game engine, "2dGameEngine". Over the past year, I've embarked on a mission to separate the game engine from the game itself, transitioning from Java to Kotlin. In this post, I'll delve into the reasons behind this decision, the process of porting code to Kotlin, and the benefits of this endeavor.
