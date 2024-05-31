@@ -9,8 +9,8 @@ meta:
 
 IN PROGRESS, NOT FINISHED YET!!!
 
-As part of the onboarding process at Rocket Partners, I have been tasked with creating a mock POS system in multiple
-phases.
+As part of the onboarding process at Rocket Partners, I have been tasked with creating a mock POS (Point of Sale) 
+system in multiple phases.
 
 In the first phase, I was to develop a fully working desktop app in Java Swing to simulate the components of a POS 
 system. For this phase, I was to handle the transaction process, store a pricebook, generate a receipt, and more. As 
