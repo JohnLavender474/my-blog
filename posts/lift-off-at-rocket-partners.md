@@ -46,5 +46,5 @@ Recently, I got a message from my manager where he told me that he really liked 
 codebase and in the PRs that I've been submitting. I'm very glad to have received this feedback. I've always been a
 fan of writing documentation, and I'm glad that it's being appreciated.
 
-Overall, I'm glad that I'm finally in a position where I can feel like I'm making a difference in my trajectory and 
+Overall, I'm glad to be in a position where I can feel like I'm making a difference in my trajectory and 
 where my contributions are being appreciated. I'm excited to see where this journey at Rocket Partners takes me next!
