@@ -22,7 +22,7 @@ rejection email. It wouldn't have been the first time such commitment and effort
 the offer. I was ecstatic. I was over the moon. I was finally going to start my career as a Java developer which is
 really what I wanted to do ever since I graduated from college.
 
-I've been at Rocket Partners for a few weeks now, and so far the experience has been wonderful
+I've been at Rocket Partners for a few weeks now, and so far the experience has been wonderful.
 I'm working with a great team of engineers, and I'm learning a lot.
 
 In the onboarding process, myself and two of the other new hires were assigned to build a mock POS system that would be used
