@@ -44,12 +44,7 @@ assigned in the future.
 
 Recently, I got a message from my manager where he told me that he really liked my knack for documentation in the 
 codebase and in the PRs that I've been submitting. I'm very glad to have received this feedback. I've always been a
-fan of writing documentation, and I'm glad that it's being appreciated. Frankly, this was one area that seemed to 
-be greatly lacking when I worked at McKenney's. There, no one seemed to have any inclination or real appreciation 
-for thoroughly documenting processes. Too many times things would have to be inferred over meetings or phone calls 
-rather than having them written down. I did a lot of documentation work while at McKenney's, but it seemed to largely
-go unnoticed. So, with all that being said, I'm glad to have finally reached a position where my contributions can feel
-meaningful and impactful.
+fan of writing documentation, and I'm glad that it's being appreciated.
 
 Overall, I'm glad that I'm finally in a position where I can feel like I'm making a difference in my trajectory and 
 where my contributions are being appreciated. I'm excited to see where this journey at Rocket Partners takes me next!
