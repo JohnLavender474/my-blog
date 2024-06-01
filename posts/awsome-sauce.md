@@ -20,4 +20,4 @@ services that AWS offers. I learned about EC2, S3, RDS, Lambda, and more. I also
 use it to interact with AWS services.
 
 I'm excited to start working with AWS at Rocket Partners. I think it's going to be a great learning experience and I'm
-looking forward to it. I'll be sure to keep you all updated on how it goes!
+looking forward to it. I'll be sure to keep this blog updated with what new projects I take on!
