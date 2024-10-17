@@ -75,10 +75,13 @@ export default function RootLayout({
       <head />
       <body>
         <div className="mx-auto  max-w-2xl px-6">
+          <div>Under maintenance...</div>
+          {/*
           {header}
           {children}
           {footer}
           <Analytics />
+          */}
         </div>
       </body>
     </html>
