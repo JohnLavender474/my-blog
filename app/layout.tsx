@@ -3,11 +3,9 @@ import Link from "next/link";
 import "../styles/globals.css";
 import {Analytics} from '@vercel/analytics/react';
 
-export default function RootLayout({
-                                       children,
-                                   }: {
-    children: React.ReactNode;
-}) {
+export default function RootLayout(
+    {children}: { children: React.ReactNode; }
+) {
     const header = (
         <header>
             <div className="text-center bg-slate-800 p-8 my-6 rounded-md">
@@ -74,11 +72,13 @@ export default function RootLayout({
         <html>
         <head><title>John Lavender's Website</title></head>
         <body>
-            {header}
-            {children}
-            {footer}
-            <Analytics/>
+            <div className="mx-auto  max-w-2xl px-6">
+                {header}
+                {children}
+                {footer}
+                <Analytics/>
+            </div>
         </body>
         </html>
-    );
+);
 }
