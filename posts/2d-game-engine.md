@@ -1,53 +1,34 @@
 ---
 section: "Projects"
-title: "Separation of Concerns: Creating a Reusable Game Engine"
-date: 2023-08-02
+title: "Creating the Mega 2D Game Engine"
+date: 2024-12-01
 meta: 
-  title: "Creating Game Engine"
-  description: "Blog Post - Creating Game Engine"
+  title: "Mega 2D Game Engine"
+  description: "Blog Post - Mega 2D Game Engine"
 ---
 
-## Introduction
+From as far back into my childhood as I can remember, I've always been fascinated by video games. 
+I fondly remember playing for many hours on the Super Nintendo that belonged to my older brother.
+We had games like Super Mario World, Megaman X, Donkey Kong Country, Star Fox, and many more. 
+Playing games was a way for me to escape, even for a moment, the trialing times of my childhood.
+The games were more than just an escape, though. They provided ways to experience unreal worlds 
+in a real and tangible manner. Whether it be stomping on turtles and flying in the skys with a
+single feather, or else blasting charged spheres of powerful energy through waves of evil robots
+or whatever it might be, it all spoke to me like nothing else could.
 
-Welcome to this blog post where I'll be sharing my journey of refactoring and improving my game engine, "2dGameEngine". Over the past year, I've embarked on a mission to separate the game engine from the game itself, transitioning from Java to Kotlin. In this post, I'll delve into the reasons behind this decision, the process of porting code to Kotlin, and the benefits of this endeavor.
+When I was very little, my Dad would impose a restriction of only one hour per day for playing 
+video games. I remember one day in particular when I had made a bargain with him: let me play
+for two hours today, and I won't play at all the next day. Suffice it to say, I was not a body of
+my word. I played for over two hours that night and then the next day tried to play for another
+hour without him noticing. Of course, he noticed, and he wasn't too happy about that. In hindsight,
+I can't really blame him. He grew up in a generation that didn't have access to video games or 
+computers in childhood. He was trying to be a good parent but not letting me get addicted. 
 
-## Background and Initial Design
+I remember how I would spend long periods of time on the swing beneath the sycamore tree undulating
+back and forth as fast and high as I could, all the while staring out while my mind raced with
+ideas for my own games. When I wasn't playing games with a controller, I was playing them through
+my thoughts and daydreams. Maybe it was an unhealthy addiction, or maybe not. 
 
-My project, "Megaman Maverick", began as an ambitious endeavor to create both a game and a game engine from scratch. Built upon the Entity-Component-System (ECS) architecture, this project combined entities, components, and systems to create a cohesive whole. The initial design aimed to streamline development and create a functional game engine tailored to the project's needs.
-
-## Reasons for Refactoring
-
-After almost a year away from the project, I revisited it with fresh eyes and a new perspective. It became evident that the game engine and the game itself were too tightly intertwined, hindering code maintainability and reusability. This realization led me to consider the benefits of transitioning from Java to Kotlin — a language I had grown more confident in, thanks to my experiences at Ware2Go.
-
-## Transitioning to Kotlin
-
-The transition from Java to Kotlin was not without its challenges, but Kotlin's concise syntax and modern features proved invaluable. The process involved rewriting existing code in Kotlin while ensuring seamless integration with the rest of the codebase. Null safety, extension functions, and other Kotlin features made the migration smoother and improved the overall readability of the code.
-
-## Separation of Concerns
-
-The principle of separation of concerns became a driving force behind this refactoring effort. By separating the game engine from the game logic, I aimed to create a more modular and reusable codebase. This design choice also aligns with best practices in software development, making the codebase easier to understand, maintain, and extend in the future.
-
-## ECS Architecture in Kotlin
-
-One of the core components of the project, the Entity-Component-System architecture, underwent adaptation to Kotlin. Components, systems, and entities were all refactored to leverage Kotlin's expressive capabilities. Below is a snippet illustrating how a component looks in the refactored engine:
-
-kotlin
-
-// Code snippet for a Component in Kotlin
-```
-class TransformComponent(var position: Vector2, var rotation: Float)
-```
-
-# Testing and Validation
-Ensuring the reliability of the refactored game engine was paramount. Rigorous testing, including unit tests for components and systems, helped identify and rectify any regressions or issues. This step played a crucial role in maintaining the engine's integrity and functionality.
-
-# Showcasing New Features
-During the refactoring process, I took the opportunity to implement new features and enhancements to the engine. These additions not only improved performance but also added versatility to the engine's capabilities. Below is a screenshot showcasing one of the new features in action:
-
-Screenshot of New Feature
-
-# Future Plans
-Looking ahead, the possibilities are exciting. With the refactored game engine in place, I'm poised to create a new mobile game that showcases the engine's potential. Additionally, I plan to continue refining the engine, expanding its capabilities, and potentially making it open source for others to benefit from.
-
-# Lessons Learned
-This journey has taught me the value of revisiting and improving existing projects. Embracing new technologies and design principles has a profound impact on code quality and maintainability. The transition from Java to Kotlin underscores the importance of adaptability and continuous learning in the dynamic field of software development.
+Fast-forward many years later to my late teens and early twenties. Although I was much of a gamer in
+my earlier teenage years, I had begun to slowly distance myself somewhat from gaming by my late teens.
+After high school, I 
