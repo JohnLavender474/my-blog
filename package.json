@@ -8,8 +8,11 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "engines": {
+    "node": "24.x"
+  },
   "dependencies": {
-    "@types/node": "22.x",
+    "@types/node": "24.x",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
     "@vercel/analytics": "^1.1.1",
