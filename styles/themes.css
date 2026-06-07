@@ -1,0 +1,46 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text-primary: #0f172a;
+  --color-text-muted: #94a3b8;
+  --color-header-bg: #1e293b;
+  --color-header-title: #ffffff;
+  --color-header-subtitle: #cbd5e1;
+  --color-footer-border: #94a3b8;
+  --color-footer-text: #94a3b8;
+  --color-card-bg: #ffffff;
+  --color-card-border: #cbd5e1;
+  --color-card-text: #334155;
+  --color-card-date: #94a3b8;
+  --color-card-title: #7c3aed;
+  --color-section-header-bg: #f1f1f1;
+  --color-section-border: #cccccc;
+  --color-back-link: #2563eb;
+  --color-post-label: #475569;
+  --color-hover-bg: #e5e5e5;
+  --color-toggle-border: #475569;
+  --color-toggle-text: #cbd5e1;
+}
+
+/* Applied when user has toggled dark mode */
+[data-theme="dark"] {
+  --color-bg: #0f172a;
+  --color-text-primary: #e2e8f0;
+  --color-text-muted: #64748b;
+  --color-header-bg: #020617;
+  --color-header-title: #f8fafc;
+  --color-header-subtitle: #94a3b8;
+  --color-footer-border: #1e293b;
+  --color-footer-text: #475569;
+  --color-card-bg: #1e293b;
+  --color-card-border: #334155;
+  --color-card-text: #cbd5e1;
+  --color-card-date: #64748b;
+  --color-card-title: #a78bfa;
+  --color-section-header-bg: #1e293b;
+  --color-section-border: #334155;
+  --color-back-link: #93c5fd;
+  --color-post-label: #94a3b8;
+  --color-hover-bg: #1e293b;
+  --color-toggle-border: #64748b;
+  --color-toggle-text: #94a3b8;
+}

@@ -2,9 +2,8 @@ import matter from "gray-matter";
 import fs from "fs";
 
 export const getPostContent = (slug: string) => {
-  const folder = "posts/";
-  const file = `${folder}${slug}.md`;
+  const file = `posts/${slug}.md`;
+  if (!fs.existsSync(file)) return null;
   const content = fs.readFileSync(file, "utf8");
-  const matterResult = matter(content);
-  return matterResult;
+  return matter(content);
 };

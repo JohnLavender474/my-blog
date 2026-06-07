@@ -3,29 +3,30 @@ import getPostMetadata from "../../../components/getPostMetadata";
 import moment from "moment";
 import { getPostContent } from "../../../components/getPostContent";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 
 export const generateStaticParams = async () => {
   const posts = getPostMetadata();
-  return posts.map((post) => ({   
+  return posts.map((post) => ({
     section: post.section,
-    slug: post.slug
+    slug: post.slug,
   }));
 };
 
-const PostPage = (props: any) => {
-  const slug = props.params.slug;
+const PostPage = async (props: any) => {
+  const { slug } = await props.params;
   const post = getPostContent(slug);
-  
-  return (
-    <div>      
-      <Link href={"/"} style={{ textDecoration: "underline", color: "blue"}}>Go back to home</Link>
-      <div className="my-12 text-center">        
-        <h1 style={{ textDecoration: "underline" }} className="text-2xl text-slate-600 ">{post.data.section}</h1>   
-        <h1 className="text-2xl text-slate-600 ">{post.data.title}</h1>
-        <p className="text-slate-400 mt-2">{moment(post.data.date).format("MM-DD-YYYY")}</p>
-      </div>
+  if (!post) notFound();
 
-      <article className="prose">
+  return (
+    <div>
+      <Link href="/" className="post-back-link">Go back to home</Link>
+      <div className="post-header">
+        <h1 className="post-section-label">{post.data.section}</h1>
+        <h1 className="post-title">{post.data.title}</h1>
+        <p className="post-date">{moment(post.data.date).format("MM-DD-YYYY")}</p>
+      </div>
+      <article className="prose prose-lg max-w-none">
         <Markdown>{post.content}</Markdown>
       </article>
     </div>

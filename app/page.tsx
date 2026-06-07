@@ -8,19 +8,12 @@ const convertMetadataToPreview = (metadata?: PostMetadata[]) => metadata?.map((p
   <PostPreview key={post.slug} {...post} />
 ));
 
-// <h1 style={{fontSize: "40px", textDecoration: "underline" }}>{section}</h1> 
-
 const getPreviewsFor = (section: string, mappedPostMetadata: Map<string, PostMetadata[]>) => (
-  <>
-    
-    <CollapsibleSection title={section}>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">        
-        {
-          convertMetadataToPreview(mappedPostMetadata.get(section))
-        }
-      </div>
-    </CollapsibleSection>
-  </>
+  <CollapsibleSection key={section} title={section}>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {convertMetadataToPreview(mappedPostMetadata.get(section))}
+    </div>
+  </CollapsibleSection>
 )
 
 const HomePage = () => {
