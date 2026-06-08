@@ -1,4 +1,4 @@
-import Markdown from "markdown-to-jsx";
+import PostContent from "../../../components/PostContent";
 import getPostMetadata from "../../../components/getPostMetadata";
 import moment from "moment";
 import { getPostContent } from "../../../components/getPostContent";
@@ -27,7 +27,7 @@ const PostPage = async (props: any) => {
         <p className="post-date">{moment(post.data.date).format("MM-DD-YYYY")}</p>
       </div>
       <article className="prose prose-lg max-w-none">
-        <Markdown>{post.content}</Markdown>
+        <PostContent content={post.content} />
       </article>
     </div>
   );
