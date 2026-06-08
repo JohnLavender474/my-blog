@@ -156,8 +156,7 @@ a:hover {
   content: attr(data-tooltip);
   position: absolute;
   bottom: calc(100% + 0.25rem);
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
   width: 260px;
   background-color: #1e293b;
   color: #f8fafc;
