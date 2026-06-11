@@ -1,5 +1,5 @@
 ---
-section: "Experience"
+section: "Thoughts & Opinions"
 title: "The Faustian Bargain of AI-Assisted Coding"
 date: 2026-03-18
 meta:

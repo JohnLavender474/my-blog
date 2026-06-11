@@ -1,5 +1,5 @@
 ---
-section: "Experience"
+section: "Projects"
 title: "The Implicit Wall: Attempting to Work With AI in Game Level Design"
 date: 2026-06-11
 meta: 

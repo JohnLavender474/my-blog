@@ -1,5 +1,5 @@
 ---
-section: "Experience"
+section: "Thoughts & Opinions"
 title: "You Can't Graft Judgement"
 date: 2026-06-07
 meta: 

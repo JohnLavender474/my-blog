@@ -18,7 +18,7 @@ const getPreviewsFor = (section: string, mappedPostMetadata: Map<string, PostMet
 
 const HomePage = () => {
   const mappedPostMetadata = getMappedPostMetadata();    
-  const sections = ["Experience", "Education", "Projects"];
+  const sections = ["Experience", "Education", "Projects", "Thoughts & Opinions"];
   return (
     <div>      
       {
