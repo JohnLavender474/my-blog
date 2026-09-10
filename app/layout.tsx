@@ -24,11 +24,6 @@ export default function RootLayout(
         <p className="site-subtitle">Welcome to my professional website!</p>
         <div className="header-links">
           <div className="header-link-item">
-            <a href="https://linkedin.com/in/john-lavender" target="_blank" rel="noreferrer">
-              <Image src="/images/linkedin.png" width={40} height={40} className="mx-auto" style={{ height: 'auto' }} alt="linkedin" />
-            </a>
-          </div>
-          <div className="header-link-item">
             <a href="https://github.com/JohnLavender474" target="_blank" rel="noreferrer">
               <Image src="/images/github-mark-white.png" width={40} height={40} className="mx-auto" style={{ height: 'auto' }} alt="github" />
             </a>
